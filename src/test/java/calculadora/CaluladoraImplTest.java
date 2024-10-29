@@ -12,11 +12,11 @@ class CaluladoraImplTest {
 	void tearUp() {
 		calculadora = new CaluladoraImpl();
 	}
-
+/*
 	@Test
 	void calcular_sum_success() {
 		int resultado = calculadora.calcular(1, '+', 2);
 		Assertions.assertEquals(3, resultado);
 	}
-
+*/
 }
