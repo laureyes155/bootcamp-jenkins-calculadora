@@ -6,13 +6,13 @@ pipeline {
   }
 
   parameters {
-    string(name: 'ENTRADA', defaultValue: 'Hola', description: 'Un parametro requerido')
+    password(name: 'CONTRASENA', defaultValue: 'esta_es_mi_contra', description: 'Ingresar contrasenia')
   }
 
   stages {
     stage ('ejemplo') {
       steps {
-        echo params.ENTRADA
+        echo params.CONTRASENA
       }
     }
     stage('Build') {
