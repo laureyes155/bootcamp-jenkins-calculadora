@@ -1,5 +1,5 @@
 pipeline {
-agent any
+
 agent { label 'jdk21' }
 
 tools {
