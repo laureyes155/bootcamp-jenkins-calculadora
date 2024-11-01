@@ -18,5 +18,9 @@ class CaluladoraImplTest {
 		int resultado = calculadora.calcular(1, '+', 2);
 		Assertions.assertEquals(3, resultado);
 	}
-
+	@Test
+	void calcular_rest_success() {
+		int resultado = calculadora.calcular(1, '-', 2);
+		Assertions.assertEquals(-1, resultado);
+	}
 }
